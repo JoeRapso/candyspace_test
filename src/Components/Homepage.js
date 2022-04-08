@@ -1,8 +1,6 @@
 import React, {useEffect, useState} from "react"
 import PhotoComponent from "./Photo"
 
-
-
 function Homepage(){
     const [photos, setPhotos] = useState([])
     const [loadingStatus, setLoadingStatus] = useState(true)
@@ -20,7 +18,6 @@ function Homepage(){
         }, 2000)
     }, [])
     
-
     return (
     <div class="d-flex flex-column min-vh-100">
         <header>
